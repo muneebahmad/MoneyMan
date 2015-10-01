@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/custom_delete_dialog"
+    android:background="@drawable/edit_layout"    
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stackview1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialog_cl"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:background="@drawable/cl"
+            android:text="X"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#444444" >
+
+        <TextView
+            android:id="@+id/user_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stackview2"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5sp"
+            android:text="Record Details"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8sp"
+        android:background="@drawable/stackview3"
+        android:text="" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/allbg"
+        android:orientation="vertical" >
+ 
+    <LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:id="@+id/dialog_serial1"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:hint="Sr# "
+            android:textStyle="bold"
+        />
+        <TextView
+            android:id="@+id/dialog_serial2"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"
+        />
+        
+        </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        
+     <TextView
+            android:id="@+id/dialog_id1"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:hint="DB-Id "
+            android:textStyle="bold"
+        />
+        <TextView
+            android:id="@+id/dialog_id2"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"
+        />
+        
+        </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:id="@+id/dialog_name1"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:hint="Name "
+            android:textStyle="bold"
+        />
+        <TextView
+            android:id="@+id/dialog_name2"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"
+        />
+        
+        </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:id="@+id/dialog_date1"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:hint="Date "
+            android:textStyle="bold"
+        />
+        <TextView
+            android:id="@+id/dialog_date2"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:textStyle="bold" 
+        />
+        
+        </LinearLayout>
+        
+    	<LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:id="@+id/dialog_day1"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:hint="Day "
+            android:textStyle="bold"
+        />
+        <TextView
+            android:id="@+id/dialog_day2"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:textStyle="bold" 
+        />
+        
+        </LinearLayout>
+        
+    	<LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:id="@+id/dialog_trans1"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:hint="Transaction Type "
+            android:textStyle="bold"
+        />
+        <TextView
+            android:id="@+id/dialog_trans2"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:textStyle="bold" 
+        />
+        
+        </LinearLayout>
+	
+    	<LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:id="@+id/dialog_amount1"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:hint="Amount "
+            android:textStyle="bold"
+        />
+        <TextView
+            android:id="@+id/dialog_amount2"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"
+        />
+        
+        </LinearLayout>
+        
+    	<LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:id="@+id/dialog_category1"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:hint="Category "
+            android:textStyle="bold"
+        />
+        <TextView
+            android:id="@+id/dialog_category2"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"
+        />
+        
+        </LinearLayout>
+        
+    	<LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:id="@+id/dialog_tags1"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:hint="Tags "
+            android:textStyle="bold"
+        />
+        <TextView
+            android:id="@+id/dialog_tags2"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"
+        />
+        
+        </LinearLayout>
+    	
+    	<LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:id="@+id/dialog_desc1"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:hint="Description "
+            android:textStyle="bold"
+        />
+        <TextView
+            android:id="@+id/dialog_desc2"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"
+        />
+        
+        </LinearLayout>
+  
+    	<LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        >
+         <TextView
+            android:id="@+id/dialog_id2"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:text="On Delete Pressed, this Record will be permanentaly deleted."
+            android:textStyle="bold" 
+            android:textColor="@android:color/white"
+        />
+    	    </LinearLayout>
+    	    
+    	<LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_gravity="center_horizontal"
+        >
+         
+    	    <Button
+     	        android:id="@+id/dialog_yes"
+     	        android:layout_width="wrap_content"
+     	        android:layout_height="wrap_content"
+     	        android:background="@drawable/delete"
+     	        android:textColor="@android:color/white"
+     	        android:textStyle="bold"
+     	        android:text="Delete"
+     	        android:layout_weight="1"
+     	        />
+     	    <Button
+     	         android:id="@+id/dialog_no"
+     	        android:layout_width="wrap_content"
+     	        android:layout_height="wrap_content"
+     	        android:background="@drawable/yes"
+     	        android:textColor="@android:color/white"
+     	        android:textStyle="bold"
+     	        android:text="Edit"
+     	        android:layout_weight="1"
+     	        />
+    	    
+         </LinearLayout>
+         </LinearLayout>
+</LinearLayout>

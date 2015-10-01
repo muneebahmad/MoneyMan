@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                
+                android:angle="270" />
+           <stroke
+                android:width="2dp"
+                android:color="#ffffff" />
+            <corners
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp"
+                android:bottomLeftRadius="25dp"
+                android:bottomRightRadius="25dp"
+                />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+             <gradient
+                android:startColor="#1E90ff"
+                android:endColor="#1E90ff"
+                android:angle="270" />
+                
+            <stroke
+                android:width="2dp"
+                android:color="#1E90FF" />
+            <corners
+                android:radius="10dp"
+                />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+    <item>        
+        <shape>
+            <gradient
+                android:startColor="#1E90ff"
+                android:angle="270" />
+          
+            <corners
+                 android:topLeftRadius="15dp"
+                android:topRightRadius="15dp"
+                android:bottomLeftRadius="25dp"
+                android:bottomRightRadius="25dp"
+                />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>

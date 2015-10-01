@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad
+pull_in_from_right.xml -->
+
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fromXDelta="200%"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:toXDelta="-10%" 
+    android:startOffset="500"/>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250sp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/edit_layout" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/stackview1"
+        >
+        <Button
+              	android:id="@+id/create_budget_cl"
+				android:layout_width="40sp" 
+				android:layout_height="40sp"
+				android:background="@drawable/cl"  
+				android:text="X"
+				android:textColor="@android:color/white"
+				android:textStyle="bold"           
+              />
+        </LinearLayout>
+        
+    
+      <LinearLayout
+    	    android:layout_height="wrap_content"
+    	    android:layout_width="match_parent"
+    	    android:background="#444444"
+    	    >
+        
+        <TextView
+            android:id="@+id/edit_title"
+            android:layout_height="wrap_content" 
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:paddingBottom="5sp"
+            android:background="@drawable/stackview2"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:text="Create Budget"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+        </LinearLayout>
+        
+     	<TextView
+    	    android:layout_width="match_parent" 
+    	    android:layout_height="8sp"
+    	    android:background="@drawable/stackview3"
+    	    android:text=""
+    	    />
+    
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/childbg"
+        >
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/create_budget_name"
+            android:background="@drawable/spinner"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:hint="Name"
+            />
+        
+         <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+            
+        
+        
+        <Spinner
+                    android:id="@+id/create_budget_spinner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dialog"
+                    android:prompt="@string/create_budget"
+                    android:textAlignment="center"
+                    android:background="@drawable/spinner"
+                    android:entries="@array/currency_array"
+                    android:layout_weight="1" />
+        
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/create_budget_amount"
+            android:background="@drawable/spinner"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:hint="Amount"
+            android:layout_weight="3"
+            android:inputType="numberDecimal"
+            />
+        </LinearLayout>
+        
+        <Spinner
+                    android:id="@+id/create_budget_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dialog"
+                    android:prompt="@string/create_budget"
+                    android:textAlignment="center"
+                    android:background="@drawable/spinner"
+                    android:entries="@array/bud_array"
+                    />
+        
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+        
+        <Button
+              	android:id="@+id/create_budget_ok"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:background="@drawable/filebg"  
+				android:text="Create"
+				android:textColor="@android:color/white"
+				android:textStyle="bold"   
+				android:layout_weight="1"        
+              />
+        
+        <Button
+              	android:id="@+id/create_budget_edit"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:background="@drawable/filebg"  
+				android:text="Edit"
+				android:textColor="@android:color/white"
+				android:textStyle="bold" 
+				android:layout_weight="1"          
+              />
+        </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<resources>
+     <string-array name="catagory_array">
+         <item>Category</item>
+         <item>Appliances</item>
+         <item>Bike</item>
+         <item>Bills</item>
+         <item>Car</item>
+         <item>Cell Phone</item>
+         <item>Charity</item>
+         <item>Children</item>
+         <item>Christmes</item>
+         <item>Cigarette</item>
+         <item>Clamity</item>
+         <item>Clothing</item>
+         <item>Crockery</item>
+         <item>Deposit</item>
+         <item>Education</item>
+         <item>Eid</item>
+         <item>Entertainment</item>
+         <item>Food</item>
+         <item>Fuel</item>
+         <item>Furniture</item>
+         <item>Gifts</item>
+         <item>Groceries</item>
+         <item>Household</item>
+         <item>Internet</item>
+         <item>Insurance</item>
+         <item>Job</item>
+         <item>Kitchen</item>
+         <item>Machinary</item>
+         <item>Medical</item>
+         <item>Maintenance</item>
+         <item>Paan</item>
+         <item>Payment</item>
+         <item>Phone</item>
+         <item>Profit</item>
+         <item>Rent</item>
+         <item>Salary</item>
+         <item>Share</item>
+         <item>Shopping</item>
+         <item>Stationary</item>
+         <item>Transfer</item>
+         <item>Transportation</item>
+         <item>Travelling</item>
+         <item>Utilities</item>
+         <item>Uncatagorized</item>
+         <item>Wife</item>
+         <item>Withdrawl</item>
+         <item>Work</item>
+         <item>Other</item>
+         <item>------</item>
+         </string-array>
+    
+</resources>

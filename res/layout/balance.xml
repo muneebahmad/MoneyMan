@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/allbg"
+    android:orientation="vertical"
+    android:id="@+id/balance_touch" >
+    
+    
+      <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+  <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+      <ImageButton
+          android:id="@+id/appHome"
+          android:layout_width="60sp"
+          android:layout_height="60sp"
+          android:background="@drawable/keypad1"
+          android:src="@drawable/home" />
+      
+      
+                    <ImageButton
+                        android:id="@+id/list"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:background="@drawable/keypad1"
+                        android:src="@drawable/list" />
+                    
+                    <ImageButton
+                        android:id="@+id/budget"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:background="@drawable/keypad1"
+                        android:src="@drawable/budget" />
+                    
+                     <ImageButton
+                        android:id="@+id/graph"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:background="@drawable/keypad1"
+                        android:src="@drawable/graph" />
+                     
+                     <ImageButton
+                        android:id="@+id/balance"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:background="@drawable/keypad3"
+                        android:src="@drawable/balance" />
+                     
+                     
+                     
+      
+      </LinearLayout>
+            <TextView
+                android:id="@+id/homeTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Balance"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>
+
+      
+      
+      <SlidingDrawer
+        android:id="@+id/slidingDrawer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/content"
+        android:handle="@+id/handle" >
+
+        <ImageButton
+            android:id="@+id/handle"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:background="@drawable/menu_back"
+            android:textColor="@android:color/white"
+            android:src="@drawable/bottom_menu"
+            android:text="Pull Menu" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:animateLayoutChanges="true"
+                android:focusable="true"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal" >
+                    
+                  <ImageButton
+                        android:id="@+id/back"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:background="@drawable/forward"
+                        android:src="@drawable/bkw" />
+
+                    <ImageButton
+                        android:id="@+id/home"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:background="@drawable/min"
+                        android:src="@drawable/down" />
+
+                    <ImageButton
+                        android:id="@+id/menu"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:background="@drawable/nav"
+                        android:src="@drawable/men" />
+
+                    <ImageButton
+                        android:id="@+id/help"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:background="@drawable/nav"
+                        android:src="@drawable/help" />
+
+                    <ImageButton
+                        android:id="@+id/credits"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:background="@drawable/nav"
+                        android:src="@drawable/credits" />
+
+                    <ImageButton
+                        android:id="@+id/settings"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:background="@drawable/nav"
+                        android:src="@drawable/settings" />
+
+                    <ImageButton
+                        android:id="@+id/notes"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:background="@drawable/nav"
+                        android:src="@drawable/notes" />
+
+                    <ImageButton
+                        android:id="@+id/balancesheet"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:background="@drawable/nav"
+                        android:src="@drawable/balancesheet" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </SlidingDrawer>
+
+</LinearLayout>

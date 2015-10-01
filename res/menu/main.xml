@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<!-- @author:MuneebAhmad -->
+    <item
+        android:id="@+id/menu_settings"
+        android:title="About"
+        android:icon="@drawable/credits"
+        android:showAsAction="ifRoom|withText"
+        />
+
+     <item
+        android:id="@+id/help"
+        android:title="Help"/>
+     
+      <item
+        android:id="@+id/shutdown"
+        android:title="Force Shutdown"/>
+</menu>

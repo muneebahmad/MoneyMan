@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_child"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/list_item_text_child"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/childbg"
+        android:textSize="15sp"
+        android:padding="10sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="5sp"
+        
+        
+    />
+
+</LinearLayout>

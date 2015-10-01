@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<resources>
+    <string-array name="filter_array">
+        <item>All</item>
+        <item>Income</item>
+        <item>Expense</item>
+        </string-array>
+    
+</resources>

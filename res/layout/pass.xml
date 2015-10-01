@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300sp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit_layout"
+    android:orientation="vertical" >
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/stackview1"
+        >
+        <Button
+              	android:id="@+id/pass_cl"
+				android:layout_width="40sp" 
+				android:layout_height="40sp"
+				android:background="@drawable/cl"  
+				android:text="X"
+				android:textColor="@android:color/white"
+				android:textStyle="bold"         
+              />
+        
+        </LinearLayout>
+        
+     <LinearLayout
+    	    android:layout_height="wrap_content"
+    	    android:layout_width="match_parent"
+    	    android:background="#444444"
+    	    >
+        
+        <TextView
+            android:id="@+id/pass_title"
+            android:layout_height="wrap_content" 
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:paddingBottom="5sp"
+            android:background="@drawable/stackview2"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:text="Login"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+        </LinearLayout>
+        
+     	<TextView
+    	    android:layout_width="match_parent" 
+    	    android:layout_height="8sp"
+    	    android:background="@drawable/stackview3"
+    	    android:text=""
+    	    />
+     	<LinearLayout
+     	    android:layout_height="wrap_content"
+     	    android:layout_width="match_parent"
+     	    android:orientation="vertical"
+     	    android:background="@drawable/childbg"
+     	    >
+     	<TextView
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:textStyle="bold"
+     	    android:textSize="10sp"
+     	    android:textColor="@android:color/black"
+     	    android:text=""
+     	    />
+     	
+     	<EditText
+     	    android:id="@+id/pass_username"
+     	    android:layout_width="match_parent"
+     	    android:layout_height="wrap_content"
+     	    android:textColor="@android:color/white"
+     	    android:textStyle="bold"
+     	    android:textSize="15sp"
+     	    android:hint="username"
+     	    android:background="@drawable/spinner"
+     	    android:focusable="false"
+     	    android:inputType="none"
+     	/>
+     	<EditText
+     	    android:id="@+id/pass_pwd"
+     	    android:layout_width="match_parent"
+     	    android:layout_height="wrap_content"
+     	    android:textColor="@android:color/white"
+     	    android:textStyle="bold"
+     	    android:textSize="15sp"
+     	    android:hint="password"
+     	    android:background="@drawable/spinner"
+     	    android:password="true"
+     	    android:maxLines="1"
+     	    android:keepScreenOn="true"
+     	    android:focusable="true"
+     	>
+     	
+     	</EditText>
+     	
+     	<LinearLayout
+     	    android:layout_width="match_parent"
+     	    android:layout_height="wrap_content"
+     	    android:orientation="horizontal"
+     	    android:weightSum="2"
+     	    >
+     	    <Button
+     	        android:id="@+id/pass_yes"
+     	        android:layout_width="wrap_content"
+     	        android:layout_height="wrap_content"
+     	        android:background="@drawable/yes"
+     	        android:textColor="@android:color/white"
+     	        android:textStyle="bold"
+     	        android:text="Login"
+     	        android:layout_weight="1"
+     	        />
+     	    <Button
+     	         android:id="@+id/pass_no"
+     	        android:layout_width="wrap_content"
+     	        android:layout_height="wrap_content"
+     	        android:background="@drawable/delete"
+     	        android:textColor="@android:color/white"
+     	        android:textStyle="bold"
+     	        android:text="Can't?"
+     	        android:layout_weight="1"
+     	        />
+     	</LinearLayout>
+     	</LinearLayout>
+        </LinearLayout>

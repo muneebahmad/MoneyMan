@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<set android:shareInterpolator="false"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+    
+    <set android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+        <translate
+            android:fromXDelta="-200"
+            android:toXDelta="200"
+            android:duration="2000"
+            android:startOffset="100"
+            android:repeatMode="reverse"
+            android:repeatCount="infinite"
+            />
+       <scale 
+           android:fromXScale="0%"
+           android:toXScale="60%"
+           android:fromYScale="10%"
+           android:toYScale="10%"
+           android:duration="1000"
+           android:repeatCount="infinite"
+           android:repeatMode="reverse"
+           />
+        
+    </set>
+
+</set>

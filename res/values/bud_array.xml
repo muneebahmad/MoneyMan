@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<resources>
+    <string-array name="bud_array">
+        <item>Daily</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+        </string-array>
+    
+</resources>

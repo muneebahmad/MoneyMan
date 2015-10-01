@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="#000033"
+                android:centerColor="#000066"
+                android:endColor="#0000FF"
+                android:type="sweep"
+                
+                  />
+            <stroke
+               
+                 />
+            <corners
+               android:bottomLeftRadius="20dp"
+                />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+              <gradient
+                android:startColor="#111111"
+                android:centerColor="#111111"
+                android:endColor="#111111"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="#999999"
+                 />
+            <corners
+                 android:topRightRadius="10dp"
+                android:bottomRightRadius="10dp"
+                 />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+    <item>        
+        <shape>
+             <gradient
+                android:startColor="#1E90FF"
+                android:centerColor="#0000FF"
+                android:endColor="#000022"
+                android:angle="270"
+                 />
+            <stroke
+                android:width="1dp"
+                android:color="#888888"
+                android:dashWidth="130dp"
+                android:dashGap="170dp"
+                 />
+            
+           
+            <corners
+                android:bottomLeftRadius="20dp"
+                 />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>

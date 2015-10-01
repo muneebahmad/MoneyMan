@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/edit_layout" >
+    
+   <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width = "match_parent"
+        android:background="@drawable/stackview1"
+        android:orientation="horizontal" 
+        android:gravity="right"
+        >
+        
+        <Button
+                        android:id="@+id/edit_min"
+                        android:layout_width="40sp"
+                        android:layout_height="40sp"
+                        android:padding="10sp"
+                        android:text="-"
+                        android:textStyle="bold"
+                        android:background="@drawable/min"
+                        android:textColor="@android:color/darker_gray"
+                         />
+        
+        <Button
+                        android:id="@+id/edit_close"
+                        android:layout_width="40sp"
+                        android:layout_height="40sp"
+                        android:padding="10sp"
+                        android:text="X"
+                        android:textStyle="bold"
+                        android:background="@drawable/cl"
+                        android:textColor="@android:color/white"
+                         />   
+        </LinearLayout>
+        
+    	<LinearLayout
+    	    android:layout_height="wrap_content"
+    	    android:layout_width="match_parent"
+    	    android:background="#444444"
+    	    >
+        
+        <TextView
+            android:id="@+id/edit_title"
+            android:layout_height="wrap_content" 
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:paddingBottom="5sp"
+            android:background="@drawable/stackview2"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:text="Edit Record"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+        </LinearLayout>
+        
+    	<TextView
+    	    android:layout_width="match_parent" 
+    	    android:layout_height="8sp"
+    	    android:background="@drawable/stackview3"
+    	    android:text=""
+    	    />
+        
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             >
+        
+    
+    <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                 >
+
+                <Button
+                    android:id="@+id/edit_dte"
+                    android:layout_width="300sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_bg1"
+                    android:shadowColor="#FFFFFF"
+                    android:shadowDx="10"
+                    android:shadowRadius="20"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    />
+                <Button
+                    android:id="@+id/edit_wDay"
+                    android:layout_width="300sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_bg1"
+                    android:shadowColor="#FFFFFF"
+                    android:shadowDx="5"
+                    android:shadowRadius="10"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    
+                    />
+            </LinearLayout>
+            
+    		<LinearLayout
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:layout_gravity="center_horizontal"
+    		    android:orientation="horizontal"
+			>	
+			
+    		    <Button
+    		        android:id="@+id/edit_id"
+    		        android:layout_height="wrap_content"
+    		        android:layout_width="300sp"
+    		        android:textStyle="bold"
+    		        android:background="@drawable/edit_bg1"
+    		        android:hint="Id "
+    		        android:textColorHint="#000099"
+    		        android:textColor="@android:color/white"
+    		         />
+    		    </LinearLayout>
+    		    
+    		<LinearLayout
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:layout_gravity="center_horizontal"
+    		    android:orientation="horizontal"
+			>	
+			
+    		    <EditText
+    		        android:id="@+id/edit_name"
+    		        android:layout_height="wrap_content"
+    		        android:layout_width="300sp"
+    		        android:background="@drawable/edit_bg1"
+    		        android:textStyle="bold"
+    		        android:hint="Name "
+    		        android:textColorHint="#000099"
+    		        android:textColor="@android:color/white"
+    		         />
+    		    </LinearLayout>
+    		    
+    		<LinearLayout
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:layout_gravity="center_horizontal"
+    		    android:orientation="horizontal"
+			>	
+			
+    		    <EditText
+    		        android:id="@+id/edit_desc"
+    		        android:layout_height="wrap_content"
+    		        android:layout_width="300sp"
+    		        android:textStyle="bold"
+    		        android:background="@drawable/edit_bg1"
+    		        android:hint="Description "
+    		        android:textColorHint="#000099"
+    		        android:textColor="@android:color/white"
+    		         />
+    		    </LinearLayout>
+    		    
+    		<LinearLayout
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:layout_gravity="center_horizontal"
+    		    android:orientation="horizontal"
+			>	
+			
+    		    <EditText
+    		        android:id="@+id/edit_trans"
+    		        android:layout_height="wrap_content"
+    		        android:layout_width="300sp"
+    		        android:textStyle="bold"
+    		        android:background="@drawable/edit_bg1"
+    		        android:hint="Transaction "
+    		        android:textColorHint="#000099"
+    		        android:textColor="@android:color/white"
+    		         />
+    		    </LinearLayout>
+    		    
+    		<LinearLayout
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:layout_gravity="center_horizontal"
+    		    android:orientation="horizontal"
+    		    android:weightSum="2"
+			>	
+			
+    		    <EditText
+    		        android:id="@+id/edit_currency"
+    		        android:layout_width="150sp"
+    		        android:layout_height="wrap_content"
+    		        android:textColorHint="#666699"
+    		        android:background="@drawable/edit_bg1"
+    		        android:layout_weight="1"
+    		        android:hint="$ "
+    		        android:textColor="@android:color/white"
+    		        />
+			
+    		    <EditText
+    		        android:id="@+id/edit_amount"
+    		        android:layout_height="wrap_content"
+    		        android:layout_width="150sp"
+    		        android:textStyle="bold"
+    		        android:background="@drawable/edit_bg1"
+    		        android:layout_weight="1"
+    		        android:hint="Amount "
+    		        android:textColorHint="#000099"
+    		        android:textColor="@android:color/white"
+    		        android:inputType="numberDecimal"
+    		         />
+    		    </LinearLayout>
+    		    
+    		<LinearLayout
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:layout_gravity="center_horizontal"
+    		    android:orientation="horizontal"
+			>	
+			
+    		    <EditText
+    		        android:id="@+id/edit_cat"
+    		        android:layout_height="wrap_content"
+    		        android:layout_width="300sp"
+    		        android:textStyle="bold"
+    		        android:background="@drawable/edit_bg1"
+    		        android:hint="Category "
+    		        android:textColorHint="#000099"
+    		        android:textColor="@android:color/white"
+    		         />
+    		    </LinearLayout>
+    		    
+    		<LinearLayout
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:layout_gravity="center_horizontal"
+    		    android:orientation="horizontal"
+			>	
+			
+    		    <EditText
+    		        android:id="@+id/edit_tags"
+    		        android:layout_height="wrap_content"
+    		        android:layout_width="300sp"
+    		        android:textStyle="bold"
+    		        android:background="@drawable/edit_bg1"
+    		        android:hint="Tags "
+    		        android:textColorHint="#000099"
+    		        android:textColor="@android:color/white"
+    		         />
+    		    </LinearLayout>
+    		  
+    		    
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_gravity="center_horizontal"
+            >
+        
+             
+      <Button
+                android:id="@+id/edit_save"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Save"
+                android:layout_gravity="right"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:background="@drawable/edit_bg1"
+                />
+            
+        </LinearLayout>
+          </LinearLayout>
+    		    </ScrollView>
+			</LinearLayout>

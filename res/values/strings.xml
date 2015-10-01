@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<resources>
+
+    <string name="app_name">MoneyMan</string>
+    <string name="hello_world">MuneebAhmad (c)2013</string>
+    <string name="cat_string">#Categories</string>
+    <string name="About">Settings</string>
+    <string name="curr_string">#Currencies</string>
+	<string name="trans_string">#Transaction Type</string>
+	<string name="tag_string">#Tags</string>
+	<string name="create_budget">#TimeLine</string>
+</resources>

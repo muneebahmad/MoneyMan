@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author:MuneebAhmad -->
+<resources>
+     <string-array name="tag_array">
+         <item>Tags</item>
+         <item>Private</item>
+         <item>Business</item>
+         <item>Home</item>
+         <item>Office</item>
+         <item>Other</item>
+         </string-array>
+</resources>
